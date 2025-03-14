@@ -1,0 +1,10 @@
+---
+layoutValues:
+  zoneName: dmz
+  stageName: dev 
+  clusterName: cluster01
+
+applications:
+  ocp-cluster-auth:
+    enabled: true
+    cluster_values: true

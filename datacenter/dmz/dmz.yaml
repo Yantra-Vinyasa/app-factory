@@ -1,0 +1,8 @@
+---
+layoutValues:
+  zoneName: dmz
+
+applications:
+  ocp-cluster-auth:
+    enabled: true
+    dmz_values: true

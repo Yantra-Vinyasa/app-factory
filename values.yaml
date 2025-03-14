@@ -56,6 +56,15 @@ default:
 
 applications:
 
+  ####### demo
+  demo-pacman:
+    enabled: true
+    syncwave: 1
+    ServerSideApply: "true"
+    destination:
+      namespace: pacman
+    targetRevision: 0.1.1
+
 
   ####### rhacs_apps
   operators:
